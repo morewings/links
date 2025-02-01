@@ -13,6 +13,7 @@ export default function RootLayout({children}: Props) {
         <html lang="en" suppressHydrationWarning>
             <head>
                 <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+                <meta property="og:image" content="/social.png" />
                 <title>{config.title}</title>
             </head>
             <body>{children}</body>
