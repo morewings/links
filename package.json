@@ -1,13 +1,13 @@
 {
-    "name": "next-card",
+    "name": "links-website",
     "version": "0.0.0",
-    "homepage": "https://morewings.github.io/next-card/",
+    "homepage": "https://morewings.github.io/links/",
     "repository": {
         "type": "git",
-        "url": "https://github.com/morewings/next-card"
+        "url": "https://github.com/morewings/links"
     },
     "bugs": {
-        "url": "https://github.com/morewings/next-card/issues"
+        "url": "https://github.com/morewings/links/issues"
     },
     "license": "MIT",
     "private": false,

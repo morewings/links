@@ -1,7 +1,5 @@
 import {
     Envelope,
-    PhoneCall,
-    WhatsappLogo,
     TelegramLogo,
     MessengerLogo,
     LinkedinLogo,
@@ -11,6 +9,7 @@ import {
     StackOverflowLogo,
     Calendar,
     DevToLogo,
+    CodeBlock,
 } from '@phosphor-icons/react/dist/ssr';
 
 import type {Config} from '@/types';
@@ -18,14 +17,14 @@ import image from '@/card-image.jpg';
 
 export const config: Config = {
     // Set your or company name
-    title: 'Patrick Bateman',
+    title: 'Dima Vyshniakov',
     // Add a brief description to display below name
-    bio: 'Specialist in mergers and acquisitions',
+    bio: 'Developer and Open Source Enthusiast',
     // Select a background style
-    background: 'gradient',
+    background: 'fresh',
     cardImage: image,
     // Set your Google Analytics id to enable
-    // gaId: 'G-XXXXXXXXX',
+    gaId: 'G-47GR0Q414J',
     // Localise sharing text
     shareTitle: 'Share link',
     // Set icon links to contact you to display below the header
@@ -37,27 +36,15 @@ export const config: Config = {
             icon: Envelope,
         },
         {
-            title: 'Call',
-            id: 'phone',
-            url: 'tel:+491234567890',
-            icon: PhoneCall,
-        },
-        {
-            title: 'Whatsapp',
-            id: 'whatsapp',
-            url: 'https://wa.me/491234567890',
-            icon: WhatsappLogo,
-        },
-        {
             title: 'Telegram',
             id: 'telegram',
-            url: 'https://t.me/userName',
+            url: 'https://t.me/morewings',
             icon: TelegramLogo,
         },
         {
             title: 'Messenger',
             id: 'meta-messenger',
-            url: 'http://m.me/PAGE-NAME?text=Hello%20and%20Welcome',
+            url: 'http://m.me/morewings',
             icon: MessengerLogo,
         },
     ],
@@ -66,44 +53,50 @@ export const config: Config = {
         {
             id: 'cv',
             title: 'Download CV',
-            url: 'https://example.com',
+            url: 'https://docs.google.com/document/d/1UL0iSt4Ud-EEHUsT5XUimDLwmQpqPC72vdH8l9L-fNQ/edit?usp=sharing',
             icon: FileText,
         },
         {
             id: 'calendar',
             title: 'Book a call with me',
-            url: 'https://example.com',
+            url: 'https://zcal.co/morewings',
             icon: Calendar,
+        },
+        {
+            id: 'devto',
+            title: 'My articles on dev.to',
+            url: 'https://dev.to/morewings',
+            icon: DevToLogo,
         },
         {
             id: 'github',
             title: 'GitHub',
-            url: 'https://github.com/user-name',
+            url: 'https://github.com/morewings',
             icon: GithubLogo,
         },
         {
             id: 'linkedin',
             title: 'LinkedIn',
-            url: 'https://www.linkedin.com/in/userName/',
+            url: 'https://www.linkedin.com/in/dvishnyakov/',
             icon: LinkedinLogo,
+        },
+        {
+            id: 'codersrank',
+            title: 'CodersRank profile',
+            url: 'https://profile.codersrank.io/user/morewings',
+            icon: CodeBlock,
         },
         {
             id: 'youtube',
             title: 'Youtube channel',
-            url: 'https://www.youtube.com/@user-name',
+            url: 'https://www.youtube.com/@morewings',
             icon: YoutubeLogo,
         },
         {
             id: 'stackoverflow',
             title: 'Stack Overflow profile',
-            url: 'https://example.com',
+            url: 'https://stackoverflow.com/users/528136/dima-vishnyakov',
             icon: StackOverflowLogo,
-        },
-        {
-            id: 'devto',
-            title: 'Dev.to articles',
-            url: 'https://dev.to/user-name',
-            icon: DevToLogo,
         },
     ],
 };
