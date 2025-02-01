@@ -1,0 +1,10 @@
+@import url("the-new-css-reset/css/reset.css");
+
+body {
+    font-family: system-ui;
+    margin: 0;
+}
+
+main {
+    padding: 36px;
+}
