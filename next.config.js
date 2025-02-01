@@ -6,5 +6,5 @@ module.exports = {
     cleanDistDir: true,
     images: {unoptimized: true},
     // Set to deploy at GitHub pages or other non-index page url
-    basePath: '/links',
+    // basePath: '/links',
 };
