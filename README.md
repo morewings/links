@@ -2,4 +2,4 @@
 
 # Business card website
 
-See https://github.com/morewings/next-card
+See [template docs](https://github.com/morewings/next-card)
