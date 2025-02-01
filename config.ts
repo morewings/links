@@ -32,7 +32,7 @@ export const config: Config = {
         {
             title: 'Email',
             id: 'email',
-            url: 'mailto:user@example.com',
+            url: 'mailto:morewings@gmail.com',
             icon: Envelope,
         },
         {
