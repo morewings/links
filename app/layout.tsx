@@ -1,8 +1,14 @@
 import type {ReactNode} from 'react';
 import {GoogleAnalytics} from '@next/third-parties/google';
+import {Rubik} from 'next/font/google';
 
-import './index.css';
+import 'the-new-css-reset/css/reset.css';
 import {config} from '@/config';
+
+const rubik = Rubik({
+    subsets: ['latin', 'cyrillic'],
+    display: 'swap',
+});
 
 type Props = {
     readonly children: ReactNode;
@@ -10,10 +16,9 @@ type Props = {
 
 export default function RootLayout({children}: Props) {
     return (
-        <html lang="en" suppressHydrationWarning>
+        <html lang="en" suppressHydrationWarning className={rubik.className}>
             <head>
                 <meta name="apple-mobile-web-app-title" content="MyWebSite" />
-                <meta property="og:image" content="/social.png" />
                 <title>{config.title}</title>
             </head>
             <body>{children}</body>
