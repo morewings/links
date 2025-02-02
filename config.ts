@@ -1,7 +1,6 @@
 import {
     Envelope,
     TelegramLogo,
-    MessengerLogo,
     LinkedinLogo,
     GithubLogo,
     FileText,
@@ -40,12 +39,6 @@ export const config: Config = {
             id: 'telegram',
             url: 'https://t.me/morewings',
             icon: TelegramLogo,
-        },
-        {
-            title: 'Messenger',
-            id: 'meta-messenger',
-            url: 'http://m.me/morewings',
-            icon: MessengerLogo,
         },
     ],
     // Set main links
@@ -99,4 +92,11 @@ export const config: Config = {
             icon: StackOverflowLogo,
         },
     ],
+    vCard: {
+        firstName: 'Dima',
+        lastName: 'Vyshniakov',
+        title: 'Senior Front End Developer',
+        email: 'morewings@gmail.com',
+        note: 'Developer and Open Source Enthusiast',
+    },
 };
