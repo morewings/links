@@ -21,6 +21,13 @@ export const Background: FC<Props> = ({children, background = config.background}
                 [classes.strict]: background === Backgrounds.strict,
                 [classes.bold]: background === Backgrounds.bold,
                 [classes.gradient]: background === Backgrounds.gradient,
+                [classes.rastafari]: background === Backgrounds.rastafari,
+                [classes.sunset]: background === Backgrounds.sunset,
+                [classes.elegant]: background === Backgrounds.elegant,
+                [classes.selenium]: background === Backgrounds.selenium,
+                [classes.evening]: background === Backgrounds.evening,
+                [classes.optimistic]: background === Backgrounds.optimistic,
+                [classes.mesh]: background === Backgrounds.mesh,
             })}>
             {children}
         </div>
