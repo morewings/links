@@ -24,7 +24,7 @@ export const config: Config = {
     cardImage: image,
     // Set your Google Analytics id to enable
     gaId: 'G-47GR0Q414J',
-    // Localise sharing text
+    // Localize sharing text
     shareTitle: 'Share link',
     // Set icon links to contact you to display below the header
     headerLinks: [
