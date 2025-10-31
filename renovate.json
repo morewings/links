@@ -3,10 +3,6 @@
     "extends": [
         "config:recommended"
     ],
-    "schedule": [
-        "before 4am on the first day of the month"
-    ],
-    "baseBranchPatterns": [
-        "master"
-    ]
+    "schedule": ["* * 1 */3 *"],
+    "baseBranches": ["master"]
 }
